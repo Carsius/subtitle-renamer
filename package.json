@@ -1,0 +1,34 @@
+{
+  "name": "subtitle-renamer",
+  "version": "1.0.0",
+  "description": "Renames anime subtitles",
+  "main": "lyric-converter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "nexe lyric-converter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloWorld017/subtitle-renamer.git"
+  },
+  "keywords": [
+    "subtitle",
+    "renamer",
+    "anime"
+  ],
+  "devDependencies": {
+    "nexe": "^2.0.0-rc.22"
+  },
+  "dependencies": {
+    "common-substrings": "^1.0.2",
+    "leven": "^2.1.0",
+    "minimist": "^1.2.0",
+    "replace-ext": "^1.0.0"
+  },
+  "author": "Khinenw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HelloWorld017/subtitle-renamer/issues"
+  },
+  "homepage": "https://github.com/HelloWorld017/subtitle-renamer#readme"
+}
