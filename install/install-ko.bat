@@ -1,10 +1,10 @@
 @echo off
 MKDIR %appdata%\subtitle-renamer\
 COPY subtitle-renamer.exe %appdata%\subtitle-renamer\subtitle-renamer.exe
-REG ADD "HKEY_CLASSES_ROOT\Directory\Background\shell\SubtitleRenamer" /ve /t REG_SZ /d "ìë§‰ íŒŒì¼ ì´ë¦„ ë°”ê¾¸ê¸°" /f
+REG ADD "HKEY_CLASSES_ROOT\Directory\Background\shell\SubtitleRenamer" /ve /t REG_SZ /d "ÀÚ¸· ÆÄÀÏ ÀÌ¸§ ¹Ù²Ù±â" /f
 REG ADD "HKEY_CLASSES_ROOT\Directory\Background\shell\SubtitleRenamer\command" /ve /t REG_SZ /d "%appdata%\\subtitle-renamer\\subtitle-renamer.exe" /f
 
 if errorlevel 1 (
-   echo **ì£¼ì˜: ê´€ë¦¬ì ê¶Œí•œìœ¼ë¡œ ì‹¤í–‰ì‹œì¼œì£¼ì„¸ìš”!!!**
+   echo **ÁÖÀÇ: °ü¸®ÀÚ ±ÇÇÑÀ¸·Î ½ÇÇà½ÃÄÑÁÖ¼¼¿ä!!!**
 )
 PAUSE
