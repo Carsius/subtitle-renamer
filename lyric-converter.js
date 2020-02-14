@@ -92,7 +92,7 @@ videoNums.forEach((videoName, videoNum) => {
 	
 	if(costMap.length === 1 || costMap[0][0] === costMap[1][0]) return;
 	
-	resultMap.set(videoFileName, costMap[0][1]);
+	resultMap.set(videoName, costMap[0][1]);
 	subtitleFiles.splice(subtitleFiles.indexOf(costMap[0][1]), 1);
 });
 
