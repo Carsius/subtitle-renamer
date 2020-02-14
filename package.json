@@ -17,13 +17,14 @@
     "anime"
   ],
   "devDependencies": {
-    "nexe": "^2.0.0-rc.22"
+    "nexe": "^3.3.2"
   },
   "dependencies": {
     "common-substrings": "^1.0.2",
-    "leven": "^2.1.0",
     "minimist": "^1.2.0",
-    "replace-ext": "^1.0.0"
+    "munkres-js": "^1.2.2",
+    "replace-ext": "^1.0.0",
+    "string-similarity": "^4.0.1"
   },
   "author": "Khinenw",
   "license": "MIT",
