@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "common-substrings": "^1.0.2",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "munkres-js": "^1.2.2",
     "replace-ext": "^1.0.0",
     "string-similarity": "^4.0.1"
